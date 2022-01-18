@@ -1,4 +1,4 @@
-crud-app {
+user-management {
 	backend folder(Nestjs)
 	1st step - npm install
 	2nd step - npm start
