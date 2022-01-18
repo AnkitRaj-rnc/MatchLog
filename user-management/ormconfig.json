@@ -1,0 +1,16 @@
+[
+    {
+      "name": "default",
+      "type": "mysql",
+      "host": "localhost",
+      "port": 3306,
+      "username": "root",
+      "password": "",
+      "database": "user",
+      "entities": ["dist/**/*.entity{ .ts,.js}"],
+      "synchronize": true,
+      "migrations": ["dist/migrations/*{.ts,.js}"],
+      "migrationsTableName": "migrations_history",
+      "migrationsRun": true
+    }
+  ]
